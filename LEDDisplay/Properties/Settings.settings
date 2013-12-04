@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LEDDisplay.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EnableTime" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TimeFormat" Type="System.String" Scope="User">
+      <Value Profile="(Default)">h:mm tt</Value>
+    </Setting>
+    <Setting Name="EnableWeather" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WeatherFormat" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Temp: $temperature$`C Hum: $humidity$% Wind: $windSpeed$km/h $windDirection$ Clouds: $clouds$</Value>
+    </Setting>
+    <Setting Name="EnableGMail" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="GMailUserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">YOUR_GMAIL_USER_NAME_HERE</Value>
+    </Setting>
+    <Setting Name="GMailApplicationPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">YOUR_APPLICATION_PASSWORD_HERE</Value>
+    </Setting>
+    <Setting Name="WeatherLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Edmonton,AB,Canada</Value>
+    </Setting>
+    <Setting Name="WeatherUnits" Type="System.String" Scope="User">
+      <Value Profile="(Default)">metric</Value>
+    </Setting>
+    <Setting Name="GMailFormat" Type="System.String" Scope="User">
+      <Value Profile="(Default)">New mail: $unread$</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
