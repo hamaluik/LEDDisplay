@@ -3,6 +3,12 @@ LEDDisplay
 
 A C# program made for displaying useful data (unread email count, weather, and time currently) on the [Dream Cheeky LED Message Board](http://www.dreamcheeky.com/led-message-board)
 
+## What It Does
+
+It scrolls real-time information across the Dream Cheeky LED Message Board display. It currently only tells the current time, the weather, and how many unread emails I have in my inbox. With your help, it can easily do more. Here's a video of it in action:
+
+[![YouTube video of program in action](http://i.imgur.com/bKZIcE3.png)](https://www.youtube.com/watch?v=xlyV3vIF-xE)
+
 ## How To Use
 
 1. Compile the program with Microsoft Visual Studio. You might have to deal with a dependency for [mikeobrien/HidLibrary](https://github.com/mikeobrien/HidLibrary) but it should be relatively easy to sort out. I've included a pre-built DLL here for you to use in case you can't figure it out.
