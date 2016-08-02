@@ -37,6 +37,8 @@ namespace LEDDisplay
                 displayProviders.Add(DisplayProvider_Weather.Title, new DisplayProvider_Weather());
             if (Properties.Settings.Default.EnableGMail)
                 displayProviders.Add(DisplayProvider_GMail.Title, new DisplayProvider_GMail());
+            if (Properties.Settings.Default.EnableThreatLevel)
+                displayProviders.Add(DisplayProvider_ThreatLevel.Title, new DisplayProvider_ThreatLevel());
 
             // create the tray menu
             trayMenu = new ContextMenu();
